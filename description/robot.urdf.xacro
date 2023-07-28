@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
     
-    <!-- corpo do robo (principal)-->
-    <xacro:include filename="robot_core.xacro" /> 
     <!-- inercia do robo -->
     <xacro:include filename="inertial_macros.xacro" />
+    <!-- corpo do robo (principal)-->
+    <xacro:include filename="robot_core.xacro" /> 
+    
 
 </robot>
