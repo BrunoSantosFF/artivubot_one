@@ -5,7 +5,8 @@
     <xacro:include filename="inertial_macros.xacro" />
     <!-- corpo do robo (principal)-->
     <xacro:include filename="robot_core.xacro" /> 
-    <!-- adicionando controle do robo -->
-    <xacro:include filename="gazebo_control.xacro" />     
+    <!-- adicionando controle do robo 
+    <xacro:include filename="gazebo_control.xacro" />   
+    -->  
 
 </robot>
