@@ -4,8 +4,10 @@
     <xacro:include filename="camera.xacro" />
     <!-- corpo do robo (principal)-->
     <xacro:include filename="robot_core.xacro" /> 
-    <!-- adicionando controle do robo --> 
-    <xacro:include filename="gazebo_control.xacro" />   
+    <!-- adicionando novo controle no robo -->
+    <xacro:include filename="ros2_control.xacro" />
+    <!-- adicionando controle do robo 
+    <xacro:include filename="gazebo_control.xacro" />   --> 
     <!-- adicionando o sensor lidar -->
     <xacro:include filename="lidar.xacro" />
 
