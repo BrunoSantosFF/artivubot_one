@@ -23,15 +23,16 @@
             <state_interface name="position" />
         </joint>
 
-        <!-- 
+        
+        </ros2_control>
+
+         
         <gazebo>
             <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
                 <parameters>$(find articubot_one)/config/my_controllers.yaml</parameters>
             </plugin>
         </gazebo>
-        </ros2_control>
-
+        
     
-    -->
 
 </robot>
